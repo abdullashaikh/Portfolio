@@ -1,4 +1,4 @@
-import logo from "../assets/AbdullaShaikhLogo.webp"
+import logo from "../assets/AbdullaShaikhLogo.png"
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
 import { FaSquareXTwitter, FaWhatsapp } from "react-icons/fa6"
 const Navbar = () => {
