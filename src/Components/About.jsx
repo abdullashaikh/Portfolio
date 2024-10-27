@@ -13,7 +13,7 @@ function About() {
                 const response = await fetch("https://portfoback.vercel.app/api/content/about");
                 if (!response.ok) throw new Error("Failed to fetch about information");
                 const data = await response.json();
-                setAboutText(data.aboutText);
+                setAboutText(data[0].aboutText);
             } catch (error) {
                 setError("Error fetching about information");
                 console.error(error);
